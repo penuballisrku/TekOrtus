@@ -9,7 +9,7 @@ Open `index.html` in a browser, or use VS Code Live Server. Keep the `assets` fo
 Upload the folder to GitHub Pages, Netlify, or any static host.
 
 ## Replace before launch
-- Email `hello@tekortus.com` and phone `+91 00000 00000`
+- Email `pkumar@tekortus.com`
 - Sample stats on the home page, sample projects, and job openings
 - Illustrations in `assets/images` with real photos or screenshots
 - Contact and demo forms are UI only; connect an email service (for example Formspree) to receive messages
