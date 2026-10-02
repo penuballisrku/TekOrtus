@@ -13,3 +13,10 @@ document.querySelectorAll('.tech-group').forEach(card => {
     if (link) e.preventDefault();
   });
 });
+// Compact, shadowed navbar once the page scrolls.
+const nav = document.querySelector('.navbar');
+if (nav) {
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+}
